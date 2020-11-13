@@ -1,0 +1,187 @@
+
+---Importing content---
+[WARNING] Could not find the author for comment #2
+[WARNING] Could not find the author for comment #3
+[WARNING] Could not find the author for comment #4
+[WARNING] Could not find the author for comment #5
+[WARNING] Could not find the author for comment #6
+[WARNING] Could not find the author for comment #7
+[WARNING] Could not find the author for comment #8
+[WARNING] Could not find the author for comment #9
+[WARNING] Could not find the author for comment #10
+[WARNING] Could not find the author for comment #11
+[WARNING] Could not find the author for comment #12
+[WARNING] Could not find the author for comment #13
+[WARNING] Could not find the author for comment #14
+[WARNING] Could not find the author for comment #15
+[WARNING] Could not find the author for comment #16
+[WARNING] Could not find the author for comment #17
+[WARNING] Could not find the author for comment #18
+[WARNING] Could not find the author for comment #19
+[WARNING] Could not find the author for comment #20
+[WARNING] Could not find the author for comment #21
+[WARNING] Could not find the author for comment #22
+[WARNING] Could not find the author for comment #23
+[WARNING] Could not find the author for comment #24
+[WARNING] Could not find the author for comment #25
+[WARNING] Could not find the author for comment #26
+[WARNING] Could not find the author for comment #27
+[WARNING] Could not find the author for comment #28
+[WARNING] Could not find the author for comment #29
+[WARNING] Could not find the author for comment #30
+[WARNING] Could not find the author for comment #31
+[WARNING] Could not find the author for comment #32
+[WARNING] Could not find the author for comment #33
+[WARNING] Could not find the author for comment #34
+[WARNING] Could not find the author for comment #35
+[WARNING] Could not find the author for comment #36
+[WARNING] Could not find the author for comment #37
+[WARNING] Could not find the author for comment #38
+[WARNING] Could not find the author for comment #39
+[WARNING] Could not find the author for comment #40
+[WARNING] Could not find the author for comment #41
+[WARNING] Could not find the author for comment #42
+[WARNING] Could not find the author for comment #43
+[WARNING] Could not find the author for comment #44
+[WARNING] Could not find the author for comment #45
+[WARNING] Could not find the author for comment #46
+[WARNING] Could not find the author for comment #47
+[WARNING] Could not find the author for comment #48
+[WARNING] Could not find the author for comment #49
+[WARNING] Could not find the author for comment #50
+[WARNING] Could not find the author for comment #51
+[WARNING] Could not find the author for comment #52
+[WARNING] Could not find the author for comment #53
+[WARNING] Could not find the author for comment #54
+[WARNING] Could not find the author for comment #55
+[WARNING] Could not find the author for comment #56
+[WARNING] Could not find the author for comment #57
+[WARNING] Could not find the author for comment #58
+[WARNING] Could not find the author for comment #59
+[WARNING] Could not find the author for comment #60
+[WARNING] Could not find the author for comment #61
+[WARNING] Could not find the author for comment #62
+[WARNING] Could not find the author for comment #63
+[WARNING] Could not find the author for comment #64
+[WARNING] Could not find the author for comment #65
+[WARNING] Could not find the author for comment #66
+[WARNING] Could not find the author for comment #67
+[WARNING] Could not find the author for comment #68
+[WARNING] Could not find the author for comment #69
+[WARNING] Could not find the author for comment #70
+[WARNING] Could not find the author for comment #71
+[WARNING] Could not find the author for comment #72
+[WARNING] Could not find the author for comment #73
+[WARNING] Could not find the author for comment #74
+[WARNING] Could not find the author for comment #75
+[WARNING] Could not find the author for comment #76
+[WARNING] Could not find the author for comment #77
+[WARNING] Could not find the author for comment #78
+[WARNING] Could not find the author for comment #79
+[WARNING] Could not find the author for comment #80
+[WARNING] Could not find the author for comment #81
+[WARNING] Could not find the author for comment #82
+[WARNING] Could not find the author for comment #83
+[WARNING] Could not find the author for comment #84
+[WARNING] Could not find the author for comment #85
+[WARNING] Could not find the author for comment #86
+[WARNING] Could not find the author for comment #87
+[WARNING] Could not find the author for comment #88
+[WARNING] Could not find the author for comment #89
+[WARNING] Could not find the author for comment #90
+[WARNING] Could not find the author for comment #91
+[WARNING] Could not find the author for comment #92
+[WARNING] Could not find the author for comment #93
+[WARNING] Could not find the author for comment #94
+[WARNING] Could not find the author for comment #95
+[WARNING] Could not find the author for comment #96
+[WARNING] Could not find the author for comment #97
+[WARNING] Could not find the author for comment #98
+[WARNING] Could not find the author for comment #99
+[WARNING] Could not find the author for comment #100
+[WARNING] Could not find the author for comment #101
+[WARNING] Could not find the author for comment #102
+[WARNING] Could not find the author for comment #103
+[WARNING] Could not find the author for comment #104
+[WARNING] Could not find the author for comment #105
+[WARNING] Could not find the author for comment #106
+[WARNING] Could not find the author for comment #107
+[WARNING] Could not find the author for comment #108
+[WARNING] Could not find the author for comment #109
+[WARNING] Could not find the author for comment #110
+[WARNING] Could not find the author for comment #111
+[WARNING] Could not find the author for comment #112
+[WARNING] Could not find the author for comment #113
+[WARNING] Could not find the author for comment #114
+[WARNING] Could not find the author for comment #115
+[WARNING] Could not find the author for comment #116
+[WARNING] Could not find the author for comment #117
+[WARNING] Could not find the author for comment #118
+[WARNING] Could not find the author for comment #119
+[WARNING] Could not find the author for comment #120
+[WARNING] Could not find the author for comment #121
+[WARNING] Could not find the author for comment #122
+[WARNING] Could not find the author for comment #123
+[WARNING] Could not find the author for comment #124
+[WARNING] Could not find the author for comment #125
+[WARNING] Could not find the author for comment #126
+[WARNING] Could not find the author for comment #127
+[WARNING] Could not find the author for comment #128
+[WARNING] Could not find the author for comment #129
+[WARNING] Could not find the author for comment #130
+[WARNING] Could not find the author for comment #131
+[WARNING] Could not find the author for comment #132
+[WARNING] Could not find the author for comment #133
+[WARNING] Could not find the author for comment #134
+[WARNING] Could not find the author for comment #135
+[WARNING] Could not find the author for comment #136
+[WARNING] Could not find the author for comment #137
+[WARNING] Could not find the author for comment #138
+[WARNING] Could not find the author for comment #139
+
+Max execution time after content import = 300
+
+---Importing widgets---
+cs-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Instagram - No Title - Imported to Inactive
+
+cs-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Cheerup - Subscribe (MailChimp) - Your daily updates - Imported to Inactive
+Cheerup - Posts List - Latest - Imported to Inactive
+Cheerup - Advertisement - No Title - Imported to Inactive
+CheerUp - Social Follow &amp; Counters - Follow us - Imported to Inactive
+Categories - Categories - Imported to Inactive
+
+cs-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Cheerup - Posts List - Latest - Imported to Inactive
+Cheerup - Subscribe (MailChimp) - Your daily updates - Imported to Inactive
+CheerUp - Social Follow &amp; Counters - Follow us - Imported to Inactive
+Cheerup - Advertisement - No Title - Imported to Inactive
+Categories - Categories - Imported to Inactive
+
+Main Sidebar : 
+
+CheerUp - Social Follow &amp; Counters - Follow us - Imported
+Cheerup - Posts List - Popular - Imported
+Cheerup - Subscribe (MailChimp) - Your daily updates - Imported
+Cheerup - Advertisement - No Title - Imported
+Categories - Categories - Imported
+
+Split Sidebar - Top : 
+
+Cheerup - About Widget - About Shane Doe - Imported
+Cheerup - Call To Action Boxes - No Title - Imported
+
+Footer Widgets : 
+
+Cheerup - About Widget - No Title - Imported
+Cheerup - Posts List - Latest Posts - Imported
+Cheerup - Posts List - Popular Posts - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

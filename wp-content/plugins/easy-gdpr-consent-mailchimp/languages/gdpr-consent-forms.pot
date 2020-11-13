@@ -1,0 +1,206 @@
+# Copyright (C) 2018 gdpr-consent-forms
+# This file is distributed under the same license as the gdpr-consent-forms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gdpr-consent-forms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gdpr-consent-forms.php:29
+msgid "The %2$sEasy GDPR Form Consent%3$s plugin requires %2$sPHP 5.4+%3$s to run properly. Please contact your web hosting company and ask them to update the PHP version of your site.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+
+#: inc/admin.php:116
+msgid "Required: GeoIP Database"
+msgstr ""
+
+#: inc/admin.php:119
+msgid "Since you have enabled EU Countries Only option on a form, a GeoIP database needs to be installed. Click below to download the free Maxmind GeoLite2 now and auto-update it periodically."
+msgstr ""
+
+#: inc/admin.php:125
+msgid "This database is licenced CC BY-SA and will be downloaded from MaxMind.com server."
+msgstr ""
+
+#: inc/admin.php:132
+msgid "Download and Install Now"
+msgstr ""
+
+#: inc/admin.php:202
+msgid "Instructions"
+msgstr ""
+
+#: inc/admin.php:215
+msgid "Form Code (Auto Checkboxes)"
+msgstr ""
+
+#: inc/admin.php:216
+msgid "Paste your MailChimp form code and press process to auto-detect and use checkboxes."
+msgstr ""
+
+#: inc/admin.php:230
+msgid "Configure Form"
+msgstr ""
+
+#: inc/admin.php:235
+msgid "HTML Selector"
+msgstr ""
+
+#: inc/admin.php:236
+msgid "Enter the form classes, ids or any valid jQuery selectors to target a specific form."
+msgstr ""
+
+#: inc/admin.php:243
+msgid "Modal Heading"
+msgstr ""
+
+#: inc/admin.php:244
+msgid "Heading for the consent modal."
+msgstr ""
+
+#: inc/admin.php:251
+msgid "Message"
+msgstr ""
+
+#: inc/admin.php:252
+msgid "A clear message suited to inform the user on what their data will be used for. Change the sample to your own message."
+msgstr ""
+
+#: inc/admin.php:264
+msgid "Checkboxes"
+msgstr ""
+
+#: inc/admin.php:270
+msgid "Checkbox {#}"
+msgstr ""
+
+#: inc/admin.php:271
+msgid "Add Checkbox"
+msgstr ""
+
+#: inc/admin.php:272
+msgid "Remove"
+msgstr ""
+
+#: inc/admin.php:279
+msgid "Checkbox Message/Label"
+msgstr ""
+
+#: inc/admin.php:286
+msgid "Field Name"
+msgstr ""
+
+#: inc/admin.php:287
+msgid "Field name is the form value this checkbox is associated with. It is <input ... name=\"THIS\"> part in a form code."
+msgstr ""
+
+#: inc/admin.php:293
+msgid "Field Value"
+msgstr ""
+
+#: inc/admin.php:294
+msgid "Field value is the form value that will be submitted with. It is <input ... value=\"THIS\"> part in a form code."
+msgstr ""
+
+#: inc/admin.php:300
+msgid "Message Below"
+msgstr ""
+
+#: inc/admin.php:301
+msgid "An additional message to show below the checkboxes. You may use this to provide additional info that MailChimp recommends, such as how you use MailChimp as your marketing tool."
+msgstr ""
+
+#: inc/admin.php:312
+msgid "Email Field"
+msgstr ""
+
+#: inc/admin.php:320
+msgid "Show Consent For"
+msgstr ""
+
+#: inc/admin.php:321
+msgid "\"EU Countries Only\" will show the consent popup only to EU users by using geolocation. When using this setting, GeoLite2 database by MaxMind it will be automatically downloaded from maxmind.com."
+msgstr ""
+
+#: inc/admin.php:325
+msgid "All Countries"
+msgstr ""
+
+#: inc/admin.php:326
+msgid "EU Countries Only"
+msgstr ""
+
+#: inc/admin.php:332
+msgid "\"Is Europe?\" Field"
+msgstr ""
+
+#: inc/admin.php:340
+msgid "Processing Label"
+msgstr ""
+
+#: inc/admin.php:344
+msgid "Submitting..."
+msgstr ""
+
+#: inc/admin.php:349
+msgid "Submit Label"
+msgstr ""
+
+#: inc/admin.php:353
+msgid "Agree & Subscribe"
+msgstr ""
+
+#: inc/admin.php:357
+msgid "Cancel Label"
+msgstr ""
+
+#: inc/admin.php:361
+msgid "Cancel"
+msgstr ""
+
+#: inc/consent-log.php:37, inc/consent-log.php:38
+msgid "Consent Log"
+msgstr ""
+
+#: inc/consent-log.php:232
+msgid "Remove all the consents of a user."
+msgstr ""
+
+#: inc/consent-log.php:233, inc/consent-log.php:243, inc/consent-log.php:252
+msgid "User ID"
+msgstr ""
+
+#: inc/consent-log.php:244, inc/consent-log.php:253
+msgid "Consent ID"
+msgstr ""
+
+#: inc/consent-log.php:245, inc/consent-log.php:254
+msgid "Date"
+msgstr ""
+
+#: inc/consent-log.php:246, inc/consent-log.php:255
+msgid "Data"
+msgstr ""
+
+#: inc/plugin.php:105
+msgid "GDPR"
+msgstr ""
+
+#: inc/plugin.php:106
+msgid "GDPR Consent Form"
+msgstr ""
+
+#: inc/plugin.php:110
+msgid "GDPR Consent Forms"
+msgstr ""
+
+#: inc/plugin.php:111
+msgid "EGCF Popup Form"
+msgstr ""

@@ -1,0 +1,16 @@
+{
+	"require": {
+		"webdevstudios/cmb2": "^2.2",
+		"maxmind-db/reader": "~1.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"vendor/webdevstudios/cmb2": ["webdevstudios/cmb2"]
+		}
+	},
+	"__commented_autoload": {
+		"files": [
+			"vendor/webdevstudios/cmb2/init.php"
+		]
+	}
+}

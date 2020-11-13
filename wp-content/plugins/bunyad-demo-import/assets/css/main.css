@@ -1,0 +1,23 @@
+.bunyad-import .intro-text {
+	padding: 10px 15px;
+	margin-top: 25px;
+    border-left: 4px solid #0073aa;
+}
+
+
+.bunyad-import .spinner {
+	display: inline-block;
+	float: none;
+	visibility: visible;
+	margin: 0;
+	margin-right: 3px;
+    margin-bottom: 1px;	
+}
+
+.bunyad-import .theme-browser {
+	margin-top: 25px;
+}
+
+.bunyad-import .theme-actions {
+	opacity: 1 !important;
+}

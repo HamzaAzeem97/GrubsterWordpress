@@ -1,0 +1,266 @@
+/**
+ * Common CSS for CheerUp core admin
+ */
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+
+/**
+ * Metaboxes CSS
+ */
+.bunyad-meta { 
+	margin: 5px 0 15px 0; 
+}
+
+.bunyad-meta .option { 
+	overflow: hidden;
+	padding: 15px 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.bunyad-meta .option:hover {
+	background: #f9f9f9; 
+}
+
+.bunyad-meta .option:last-child { 
+	border-bottom: 0; 
+}
+
+.bunyad-meta .label {
+	width: 20%;
+	float: left;
+	display: block;
+	max-width: 200px;
+	font-weight: 600;
+}
+
+.bunyad-meta .field {
+	float: left;
+	width: 80%;
+	padding-left: 10px;
+	display: block;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.bunyad-meta .description {
+	margin-top: 7px;
+	font-size: 90%;
+}
+
+.bunyad-meta .field textarea {
+	max-width: 100%;
+	margin: 3px 0;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.radio-option label span { 
+	margin-left: 5px; 
+}
+
+/* form elements */
+.color-picker-element { 
+	display: none; 
+	position: absolute; 
+	background-color: #fcfcfc; 
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 4px 0 rgba(0,0,0, 0.2);
+	box-shadow: 0px 1px 4px 0 rgba(0,0,0, 0.2);
+	z-index: 1;
+}
+
+.mce_bunyad_shortcodesList {
+	font-size: 14px;	
+}
+
+.image-upload {
+	display: none;
+	max-width: 350px;
+	margin-top: 10px;
+}
+
+.image-upload.visible {
+	display: block;
+}
+
+.image-upload img {
+	max-width: 100%;
+}
+
+.remove-image, 
+.image-type {
+	display: none !important;
+}
+
+.remove-image.visible, 
+.image-type.visible {
+	display: inline-block !important;
+}
+
+/* Default Form Table Extras */
+
+.form-table .form-field .input-number {
+	width: 15%;
+	min-width: 50px;
+	max-width: 100px;
+}
+
+/**
+ * Widgets
+ */
+ 
+.bunyad-note {
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.bunyad-cta-group {
+	border: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	background: #fafafa;
+	padding: 10px 15px;
+	cursor: move;
+}
+
+.bunyad-cta-group p:first-child {
+	margin-top: 0;
+}
+
+/**
+ * Blocks Widgets
+ */ 
+.bunyad-widget-option {
+	margin: 20px 0;
+}
+
+.bunyad-widget-option .label {
+	font-weight: 500;
+    padding-bottom: 8px;
+    display: block;
+}
+
+.bunyad-widget-option input[type="checkbox"] {
+	margin-top: 0;
+}
+
+.bunyad-widget-option .small-desc {
+	padding-top: 8px;
+	padding-bottom: 5px;
+	margin: 0;
+	font-size: 12px;
+    font-style: normal;
+    color: #72777c;
+}
+
+.bunyad-widget-tab {
+	background: #fdfdfd;
+    padding: 0 15px;
+    margin: 25px 0;
+    border: 1px solid #efefef;
+}
+
+.bunyad-widget-tab .heading {
+    margin: 0 -15px;
+    padding: 0 15px;
+	background: #fafafa;
+	border-top: 1px solid #f0f0f0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
+	font-size: 14px;
+	font-weight: 600;
+    line-height: 40px;
+}
+
+
+/**
+ * Visual Composer Icons
+ */ 
+ 
+.sphere-icon .vc_element-icon {
+	background-size: 100%;
+	width: 60px !important;
+	height: 47px !important;
+	margin-top: -7px;		
+}
+
+.sphere-icon_nav .vc_element-icon {
+	background-size: 100%;
+	width: 66px !important;
+	height: 51px !important;
+	top: 9px !important;
+}
+
+.sphere-icon_nav {
+	padding-left: 82px !important;
+}
+
+.tsb-news-grid {
+	background-image: url('images/news-grid-block.png') !important;
+}
+
+.tsb-highlights {
+	background-image: url('images/highlights-block.png') !important;
+}
+
+.tsb-post-listings {
+	background-image: url('images/post-listings-block.png') !important;
+}
+
+.tsb-loop-classic {
+	background-image: url('images/classic-large-block.png') !important;
+}
+.tsb-loop-1st-large {
+	background-image: url('images/large-grid-block.png') !important;
+}
+
+.tsb-loop-1st-large-list {
+	background-image: url('images/large-list-block.png') !important;
+}
+
+.tsb-loop-1st-overlay {
+	background-image: url('images/overlay-grid-block.png') !important;
+}
+
+.tsb-loop-1st-overlay {
+	background-image: url('images/overlay-grid-block.png') !important;
+}
+
+.tsb-loop-1st-overlay-list {
+	background-image: url('images/overlay-list-block.png') !important;
+}
+
+.tsb-loop-1-2 {
+	background-image: url('images/mixed-large-grid-block.png') !important;
+}
+
+.tsb-loop-1-2-list {
+	background-image: url('images/mixed-large-list-block.png') !important;
+}
+
+.tsb-loop-1-2-overlay {
+	background-image: url('images/mixed-overlay-grid-block.png') !important;
+}
+
+.tsb-loop-1-2-overlay-list {
+	background-image: url('images/mixed-overlay-list-block.png') !important;
+}
+
+.tsb-loop-list {
+	background-image: url('images/list-block.png') !important;
+}
+
+.tsb-loop-grid {
+	background-image: url('images/grid-block.png') !important;
+}
+
+.tsb-loop-grid-3 {
+	background-image: url('images/grid-3-block.png') !important;
+}
+
+.tsb-slider {
+	background-image: url('images/featured-slider-block.png') !important;
+}

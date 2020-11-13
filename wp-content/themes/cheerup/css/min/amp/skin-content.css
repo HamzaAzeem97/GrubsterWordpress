@@ -1,0 +1,1564 @@
+/**
+ * Skin: ContentPro
+ */
+@font-face {
+  font-family: 'Charter BS';
+  src: url("fonts/charter/charter_regular-webfont.woff2") format("woff2"), url("fonts/charter/charter_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charter BS';
+  src: url("fonts/charter/charter_italic-webfont.woff2") format("woff2"), url("fonts/charter/charter_italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charter BS';
+  src: url("fonts/charter/charter_bold-webfont.woff2") format("woff2"), url("fonts/charter/charter_bold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charter BS';
+  src: url("fonts/charter/charter_bold_italic-webfont.woff2") format("woff2"), url("fonts/charter/charter_bold_italic-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+:root {
+  --main-color: #2d53fe;
+  --main-color-rgb: 45, 83, 254;
+}
+
+/**
+ * Change Main Color
+ */
+input[type="submit"],
+button,
+input[type="button"],
+.it,
+.of .ol .oc,
+.u.l .c .th,
+.nn .nr .d a,
+.rf .sn .rr,
+.oh a:hover,
+.oh.op a,
+.im:hover .oh a,
+.od .ov:hover,
+.om .og .oy button,
+.tc .tw,
+.ob .tw,
+.ow .ox,
+.ow a:hover,
+.ow > span,
+.tx .tk.tj .oc:before,
+.ok .o_,
+.oj span.oq,
+.oj a.it,
+.oj button.it,
+.oj input.it,
+.oj #oz input.iz,
+.oj a.it.a,
+.oj a.it.a:hover,
+.oj button.it.a,
+.oj button.it.a:hover,
+.oj input.it.a,
+.oj input.it.a:hover,
+.oj #oz input.iz.a,
+.oj #oz input.iz.a:hover,
+.oj a.it:hover,
+.oj button.it:hover,
+.oj input.it:hover,
+.oj #oz input.iz:hover,
+.oj nav.ue ul li span.ox,
+.oj nav.ue ul li a:hover,
+.oj .ut .un .it {
+  background: #2d53fe;
+}
+
+blockquote:before,
+.ur,
+.t .f a:hover,
+.r .ny > li:hover > a,
+.r .ny > .ui > a,
+.r .ny > .us > a,
+.r .ny > .uo > a,
+.r li:hover > a:after,
+.r .ui > a:after,
+.r .us > a:after,
+.r .uo > a:after,
+.r .ny li li:hover > a,
+.r .ny li li.ui > a,
+.ri .rs a:hover,
+.ix a:hover,
+.ix .uu,
+.ro .ru > span,
+.iq .nx .id,
+.rf .sr,
+.ua input[type=checkbox],
+.nc.n .nv:hover,
+.na .f .fa,
+.sl .sc,
+.iv a:hover,
+.f a:hover,
+.h .d > a,
+.uf .rr > a,
+.ih .tt .ru a,
+.ul .d a,
+.nj .nq a:hover,
+.nj .nz a:hover,
+.nj.id .ox,
+.nm a,
+.ng a,
+.ns .rb,
+.ns .f .uc:hover,
+.uh .nv:hover,
+.up blockquote:before,
+.ud .uv,
+.oj .um:before,
+.oj .um span:before,
+.oj .ug,
+.oj .uy .ub a:hover,
+.oj .uy .ub li.uw,
+.ux .uy .ub a:hover,
+.ux .uy .ub li.uw,
+.oj .ut .uk .u_,
+.oj .ut .uk .to,
+.oj div.uj div.uq p.uz,
+.oj div.uj div.uq span.uz,
+.oj .or div.uj div.uq p.uz,
+.oj .or div.uj div.uq span.uz {
+  color: #2d53fe;
+}
+
+.od .ov:hover,
+.om .og .oy button,
+.ow .ox,
+.ow a:hover,
+.ow > span,
+.oj nav.ue ul li span.ox,
+.oj nav.ue ul li a:hover {
+  border-color: #2d53fe;
+}
+
+.oj .ut .ae .at {
+  background-color: #2d53fe;
+}
+
+.x:after,
+.an .nk {
+  border-bottom: 1px solid #2d53fe;
+}
+
+.oe a:before,
+.ot a:before,
+.on a:before {
+  border: 1px solid #2d53fe;
+}
+
+/* Change text / contrast font */
+body,
+input,
+textarea,
+select,
+.sl .ar,
+.tl,
+.h .m,
+.nm,
+.ng,
+.oe a,
+.ot a,
+.on a,
+.oj .ai,
+.oj .as,
+.oj .ao,
+.oj form .au,
+.oj .aa,
+.oj #af .b ol.al .ar,
+.ac .ah,
+.ac .ap .ad table {
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+  -webkit-font-smoothing: initial;
+}
+
+/* Change main body and heading font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="submit"],
+button,
+input[type="button"],
+.it,
+blockquote cite,
+blockquote .av,
+.am,
+.s .ag,
+.u .nk,
+.r,
+.ri,
+.ay .ab,
+.aw .ax,
+.ro,
+.rf .ak,
+.a_ .rx,
+.nc.n .nl,
+.na .f,
+.nc .aj .nv,
+.nc.nh .np .nd,
+.nc.nh .nf,
+.sl,
+.oh a,
+.nx,
+.x,
+.tn,
+.aq,
+.an,
+.sg,
+.su .tn,
+.uu .id,
+.h,
+.az .k,
+.ti .k,
+.tt .rn,
+.tt .iv,
+.tt .f,
+.ih .tt .ru a,
+.od .ov,
+.oa,
+.sf .th,
+.td,
+.td .th,
+.fe .tw,
+.fe .th,
+.tc .tw,
+.tc .th,
+.ob .th,
+.tp,
+.tp .th,
+.nj,
+.nj .iu,
+.ow,
+.nm .rn,
+.ns .rb,
+.tx .tn,
+.tx .tk.tj .oc:before,
+.rw .rx,
+.ft .fn,
+.fr .fi .fs,
+.fr .fo,
+.oe,
+.ot,
+.on,
+.ok .o_,
+.ie,
+.oj .ia .it,
+.oj .fu .ff,
+.oj nav.ue,
+.ac .nm,
+.oj .fl,
+.ux .fl,
+.oj ul.fc,
+.oj.tq,
+.oj div.uj,
+.oj .or div.uj,
+.ac .ap .ad .it,
+.oj .fh .fp thead th,
+.oj .fh .fp .ug,
+.fd #fv #fm {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.nb .nw .tn,
+.tl,
+.tt .ru a,
+.tt .fg,
+.nm,
+.rw .rx,
+.ng,
+.fy a,
+.oe a,
+.ot a,
+.on a {
+  color: #505050;
+}
+
+/* Remove uppercase text on several elements */
+.r.i .ny > li li a,
+.r.i .nb .fb a,
+.r.r_,
+.ro .ru > a,
+.rf .rl,
+.x,
+.tn,
+.sg .nk,
+.sf .th,
+.td .th,
+.fe .th,
+.tc .th,
+.ob .th,
+.tp .th,
+.nj.id,
+.nm h1,
+.ng h1,
+.nm h2,
+.ng h2,
+.nm h3,
+.ng h3,
+.nm h4,
+.ng h4,
+.nm h5,
+.ng h5,
+.nm h6,
+.ng h6,
+.fw tfoot a,
+.oj ul.fc li.uj,
+.oj ul.fc li.uj .fx,
+.oj ul.fc .fk,
+.oj ul.fc .f_,
+.oj .ut .un,
+.oj ul.fj li a,
+.oj ul.fq li a,
+.oj.fz .le > strong,
+.oj div.uj .lt,
+.oj .or div.uj .lt,
+.oj div.uj .ln,
+.oj .or div.uj .ln,
+.oj #af .b ol.al li .fi strong,
+.oj #af .lr,
+.ac table.li .rx,
+.ac table.li .ls > a,
+.ac table.li .fx a,
+.oj .fh .fp thead th {
+  text-transform: none;
+}
+
+/**
+ * Header and Nav
+ */
+.r.r_ {
+  color: #525252;
+}
+
+.r.r_ .ny > li > a {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.u.r_ .f a:not(:hover) {
+  color: #525252;
+}
+
+.u.r_ .f .tsi {
+  font-size: 16px;
+}
+
+.u.r_ .lo:before {
+  height: 16px;
+}
+
+.u.r_ .lo .tsi {
+  font-size: 17px;
+  margin-top: -2px;
+}
+
+.ie li a {
+  letter-spacing: 0.12em;
+}
+
+/**
+ * General components and global changes
+ */
+.ih .rn a, .q .k, .az .k {
+  padding: 14px 24px;
+  border: 0;
+  background: #f6f6f6;
+  box-shadow: 0 2px 3px rgba(110, 110, 110, 0.25);
+  color: #000;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --main-color: $skin-color;
+}
+
+::selection {
+  background: rgba(45, 83, 254, 0.5);
+}
+
+::-moz-selection {
+  background: rgba(45, 83, 254, 0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+input,
+textarea,
+select {
+  font-size: 14px;
+}
+
+input {
+  height: 3.14286em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  height: auto;
+}
+
+input[type="submit"],
+button,
+input[type="button"],
+.it {
+  padding: 15px 20px;
+  background: #000;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+textarea,
+select {
+  color: #9c9c9c;
+}
+
+.ii,
+.is.io {
+  padding-left: 42px;
+  padding-right: 42px;
+  font-style: normal;
+  font-size: 27px;
+  line-height: 1.44;
+  font-weight: 500;
+  color: #252525;
+}
+
+.ii:before,
+.is.io:before {
+  transform: translateX(-50%) translateY(9px) rotate(1deg);
+  font-size: 132px;
+  color: #2d53fe;
+  opacity: .13;
+}
+
+.ii cite,
+.is.io cite {
+  font-size: 14px;
+}
+
+.ii cite:before,
+.is.io cite:before {
+  display: none;
+}
+
+.up {
+  font-size: 24px;
+  font-weight: 500;
+  color: #252525;
+  padding-left: 3.896%;
+}
+
+.up:before {
+  position: absolute;
+  margin-left: -1.75%;
+  z-index: -1;
+  color: #2d53fe;
+  opacity: .13;
+  font-size: 96px;
+}
+
+.up.lu {
+  margin-right: 7%;
+}
+
+.up.la {
+  margin-left: 3.9%;
+}
+
+.up cite {
+  margin-top: 24px;
+}
+
+blockquote {
+  font-family: "IBM Plex Serif", Charter, Georgia, serif;
+  font-size: 21px;
+  font-style: normal;
+  color: #989898;
+  -webkit-font-smoothing: antialiased;
+}
+
+blockquote p + cite {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #9c9c9c;
+}
+
+.lf {
+  box-shadow: 0 3px 12px -1px rgba(7, 10, 25, 0.2), 0 22px 27px -20px rgba(7, 10, 25, 0.2);
+  transition: all .3s ease;
+}
+
+.lf:hover {
+  opacity: 1;
+  box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.25);
+  filter: brightness(1.07);
+  transform: translate(0px, -2px);
+}
+
+.nx .nk {
+  padding: 0 16px;
+  color: #000;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  font-size: 22px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.nx:before {
+  background: #dfdfdf;
+}
+
+.h,
+.w {
+  font-size: 12px;
+  color: #9e9e9e;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+
+.h .m,
+.w .m {
+  display: none;
+}
+
+.h time,
+.h .b,
+.w time,
+.w .b {
+  color: #9e9e9e;
+}
+
+.h .v,
+.w .v {
+  padding: 0;
+}
+
+.h .d > a,
+.h time,
+.h .b,
+.w .d > a,
+.w time,
+.w .b {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.w {
+  margin-bottom: 20px;
+}
+
+.tn,
+.x {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  color: #030303;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tn a,
+.x a {
+  color: inherit;
+  transition: all 0.3s ease-in;
+}
+
+.tn a:hover,
+.x a:hover {
+  opacity: 1;
+  text-shadow: 2px 2px white, 2px -2px white, -2px 2px white, -2px -2px white;
+  box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 var(--main-color, #000) inset;
+}
+
+.x {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.x:after {
+  display: none;
+}
+
+.tl,
+.nm,
+.ng {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6875;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tl {
+  font-size: 15px;
+}
+
+.nj .nq a,
+.nj .nz a {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.nj .iu {
+  min-width: initial;
+  padding: 16px 50px;
+  border: 0;
+  background: #f6f6f6;
+  box-shadow: 0 2px 3px rgba(110, 110, 110, 0.25);
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nj .iu:hover {
+  opacity: 0.9;
+}
+
+.nj .iu .tsi:not(.ll) {
+  display: none;
+}
+
+.nj.id {
+  font-size: 14px;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lc .lh {
+  padding: 0 20px;
+}
+
+.lc .iu {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/**
+ * Posts adjustments
+ */
+.lp ._ {
+  margin-bottom: 50px;
+}
+
+.lp.ld {
+  margin-bottom: -50px;
+}
+
+.j,
+._ {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.j .re,
+.j .im,
+._ .re,
+._ .im {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.j .x {
+  max-width: 88%;
+}
+
+.j .w .x {
+  margin: 18px 0;
+}
+
+.j .re img,
+.j .lv,
+.j .lm {
+  margin-bottom: 46px;
+}
+
+.j .h {
+  margin-bottom: 21px;
+}
+
+.j .ru {
+  letter-spacing: 0;
+}
+
+.j .nm > p:last-of-type + .rn {
+  margin-top: -6px;
+}
+
+.ih .rn a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.ih .rn a:before {
+  display: none;
+}
+
+.ih .rn a span {
+  padding: 0;
+  background: transparent;
+}
+
+.ih .tt {
+  letter-spacing: 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.ih .tt .ru a {
+  letter-spacing: 0.15em;
+}
+
+.ih .tt .id {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.ih .tt .f a {
+  font-size: 14px;
+}
+
+.tt {
+  margin-top: 45px;
+}
+
+.tt .rn {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.q .tn {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.q .h {
+  font-size: 12px;
+}
+
+._ .x {
+  font-size: 24px;
+}
+
+._ .im {
+  margin-bottom: 36px;
+  overflow: visible;
+}
+
+._ .w {
+  margin-bottom: 20px;
+}
+
+.lg .x {
+  font-size: 22px;
+}
+
+.ig .d a {
+  background: #000;
+  color: #fff !important;
+}
+
+.ig .tn:hover {
+  opacity: 1;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.ly .lb {
+  margin-bottom: -38px;
+}
+
+.ly .su {
+  margin-bottom: 42px;
+}
+
+.ly .su .or {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.ly .su img {
+  margin-bottom: 25px;
+}
+
+.ly .su .tn {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+.ly .su .h {
+  display: none;
+}
+
+/* Single Post */
+.nn .nr .rr {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.lw .x {
+  font-size: 42px;
+  max-width: 675px;
+  line-height: 1.21;
+  -webkit-font-smoothing: initial;
+}
+
+.lw .ic {
+  margin-bottom: 35px;
+}
+
+.lw .if .re {
+  margin-bottom: 50px;
+}
+
+.iy .ia {
+  margin-top: 75px;
+}
+
+.iy .nm {
+  margin-top: -.421em;
+}
+
+.iy .re .h {
+  font-size: 12px;
+}
+
+.iy .re .tw {
+  letter-spacing: 0.08em;
+  line-height: 26px;
+}
+
+.iy .re .tn {
+  font-size: 38px;
+  line-height: 1.21;
+  -webkit-font-smoothing: initial;
+}
+
+.iy .re .lx {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.nm p > a,
+.nm li > a,
+.nm dd > a,
+.nm h1 a,
+.nm h2 a,
+.nm h3 a,
+.nm h4 a,
+.nm h5 a,
+.nm h6 a,
+.nm em a,
+.nm strong a {
+  color: inherit;
+  box-shadow: 0 -1px 0 0 #2d53fe inset;
+  transition: .3s ease-in;
+}
+
+.nm p > a:hover,
+.nm li > a:hover,
+.nm dd > a:hover,
+.nm h1 a:hover,
+.nm h2 a:hover,
+.nm h3 a:hover,
+.nm h4 a:hover,
+.nm h5 a:hover,
+.nm h6 a:hover,
+.nm em a:hover,
+.nm strong a:hover {
+  opacity: 1;
+  box-shadow: 0 -1px 0 0 currentColor inset;
+}
+
+.nm li > ul,
+.nm li > ol {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.nm li {
+  margin-bottom: 0.8em;
+}
+
+.nm figure > a:not(.lk) {
+  display: block;
+}
+
+.nm h1, .nm h2, .nm h3, .nm h4, .nm h5, .nm h6 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  color: #030303;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nm figcaption a,
+.nm .l_ a {
+  text-decoration: underline;
+}
+
+.nm .lj figcaption,
+.nm .l_ {
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  color: #777;
+}
+
+.nm .ii,
+.nm .is.io {
+  margin-top: 2em;
+  margin-bottom: 1.9em;
+}
+
+.nm .rn {
+  margin-top: 22px;
+  text-transform: none;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0;
+  font-size: 16px;
+  text-align: initial;
+}
+
+.nm .rn a:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #2d53fe;
+  transition: transform .3s ease-in;
+}
+
+.nm .rn a:hover:after {
+  background: #000;
+}
+
+.nm .rn a:before {
+  display: none;
+}
+
+.nm .rn a span {
+  padding: 0;
+  background: transparent;
+}
+
+.lq {
+  font-family: ff-more-web-pro, "PT Serif", Georiga, serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #444;
+  color: rgba(0, 0, 0, 0.74);
+  line-height: 1.73;
+}
+
+.lq p {
+  margin-bottom: 1.65em;
+}
+
+.lq > ul,
+.lq > ol {
+  margin-top: 1.65em;
+  margin-bottom: 1.65em;
+}
+
+.lq > ul,
+.lq > ul ul {
+  list-style: none;
+}
+
+.lq > ul li:before {
+  position: absolute;
+  content: "\2022";
+  margin-left: -25px;
+  display: inline-block;
+  text-align: right;
+  opacity: 0.8;
+  font-family: georgia, arial, system-ui;
+  transform: scale(1.1);
+  -webkit-font-smoothing: antialiased;
+}
+
+.lq h1 {
+  font-size: 1.7em;
+}
+
+.lq h2 {
+  font-size: 1.6em;
+}
+
+.lq h3 {
+  font-size: 1.3em;
+}
+
+.lq h4 {
+  font-size: 1.15em;
+}
+
+.lq h5 {
+  font-size: 1.05em;
+}
+
+.lq h6 {
+  font-size: 1em;
+}
+
+.lq h1, .lq h2, .lq h3, .lq h4, .lq h5, .lq h6 {
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+.ri .rs a {
+  color: #161616;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.ix a {
+  color: #161616;
+}
+
+.lz .ab {
+  margin-top: -1px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  box-shadow: -3px -3px 8px -6px rgba(0, 0, 0, 0.1), 1px 3px 15px -7px;
+  border-radius: 50%;
+  font-size: 17px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.lz .ab:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.lz .ax {
+  margin-bottom: 27px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lz .tsi {
+  -webkit-font-smoothing: antialiased;
+}
+
+.ro .ru > a {
+  margin-top: -5px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  font-size: 22px;
+}
+
+.ro .ru > span {
+  display: none;
+}
+
+.ro .ce img {
+  margin-top: -77px;
+  width: 110px;
+  height: auto;
+}
+
+.ro .ik {
+  font-size: 16px;
+}
+
+.ra .tn {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.ra.i_ .tn {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.ra .h,
+.ra.i_ .h {
+  font-size: 12px;
+}
+
+.ra .or {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a_ .tn {
+  margin-bottom: 8px;
+  font-family: inherit;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.rf .rl {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rf .sr:before {
+  vertical-align: middle;
+}
+
+.rf .sr,
+.rf .rh,
+.rf .se .ct {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.rf .rc {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.ua .iz {
+  padding: 14px 25px;
+}
+
+/**
+ * Home & Archives changes
+ */
+.cn .cr {
+  margin-bottom: 60px;
+}
+
+.cn .nj {
+  margin-top: 70px;
+}
+
+.aq .nk {
+  font-size: 18px;
+}
+
+.sg .nk {
+  font-size: 27px;
+  padding-left: 20px;
+}
+
+.sg .ci {
+  font-size: 14px;
+}
+
+.tf {
+  margin-top: -15px;
+  padding-left: 27px;
+  padding-right: 32px;
+}
+
+.tf .tl {
+  font-size: 14px;
+}
+
+.tf .cs {
+  height: 3.15385em;
+  width: 270px;
+}
+
+.tf .it {
+  width: auto;
+  padding: 15px 34px;
+  background: #000;
+}
+
+.ts .nk {
+  background: transparent;
+}
+
+.ts .nk:before,
+.ts .nk:after {
+  display: none;
+}
+
+.ts .aq {
+  margin-top: -5px;
+  margin-bottom: 62px;
+}
+
+.ts .aq:before {
+  display: none;
+}
+
+.ts .aq:after {
+  top: 100%;
+  left: 50%;
+  margin-top: 12px;
+  margin-left: -18px;
+  width: 36px;
+  height: 2px;
+  background: #000;
+}
+
+.ts .co {
+  margin-bottom: 18px;
+}
+
+.ts .tn {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.ts .h {
+  font-size: 10px;
+}
+
+.sf .th {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  color: #030303;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2;
+}
+
+.sf .rv {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.sa .tn,
+.sa .th {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  color: #030303;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2;
+}
+
+.tv .tn {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+/**
+ * Sidebar adjustments
+ */
+.rm .tq {
+  margin-bottom: 50px;
+}
+
+.rm .rg {
+  margin-bottom: 35px;
+  padding-bottom: 6px;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 21px;
+  color: #000;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.rm .ry,
+.rm .nt {
+  background: #f6f6f6;
+  border: 0;
+  padding: 34px 30px;
+}
+
+.rm .ry .rg,
+.rm .nt .rg {
+  margin-top: -3px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.rm .ry .rg span,
+.rm .nt .rg span {
+  padding: 0;
+  background: transparent;
+}
+
+.rm .ry .rg:after,
+.rm .nt .rg:after {
+  margin-top: 8px;
+  height: 2px;
+  background: #000;
+  width: 24px;
+}
+
+.ry .ne,
+.nt .ne {
+  margin-bottom: 22px;
+  font-size: 16px;
+  color: #5b5b5b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ry input,
+.nt input {
+  height: 44px;
+}
+
+.rw .rx {
+  padding: 7px 18px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #111;
+  letter-spacing: 0.1em;
+}
+
+.cn > .rw {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 70px;
+}
+
+.ry .ne,
+.nt .ne {
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+.ry p:last-of-type,
+.nt p:last-of-type {
+  margin-top: -17px;
+}
+
+.n .ry input[type="submit"], .n
+.nt input[type="submit"] {
+  background: #2d53fe;
+}
+
+.tx .tn {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.52;
+  letter-spacing: 0;
+}
+
+.tx .x {
+  font-weight: 500;
+}
+
+.tx .tk.t_ .tn {
+  font-size: 17px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tx ._ {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tx ._ .w {
+  margin-bottom: 14px;
+}
+
+.tx ._ img {
+  float: none;
+}
+
+.tx .im {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tx .im + .cu {
+  margin-bottom: 20px;
+}
+
+.sy .tn a:hover {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.sw li,
+.sx li,
+.sk li,
+.s_ li,
+.sj li,
+.sq li,
+.sz li {
+  font-size: 14px;
+}
+
+.oe a,
+.ot a,
+.on a {
+  font-size: 15px;
+}
+
+/* Footer Changes */
+.ni .rg {
+  margin-bottom: 42px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.ni .tx .h {
+  color: #707070;
+}
+
+.ni .ns .no {
+  font-size: 15px;
+}
+
+.na .nf {
+  font-size: 13px;
+}
+
+.na .f {
+  letter-spacing: 0.12em;
+}
+
+.nc.ca .nf a {
+  color: #2d53fe;
+}
+
+.nc.n .nf {
+  font-weight: 500;
+}
+
+.nc.n .n_ {
+  color: inherit;
+}
+
+.nc.n .tn,
+.nc.n .cl,
+.nc.n .tk .tn {
+  font-weight: 400;
+  -webkit-font-smoothing: initial;
+}
+
+.nc.nh .np .nd {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.nc.nh .nl {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.nc.cc {
+  -webkit-font-smoothing: antialiased;
+}
+
+.nc.cc .na .nv {
+  background: #2d53fe;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nc.cc .nf {
+  font-weight: 500;
+  letter-spacing: 0.11em;
+}
+
+@media (max-width: 540px) {
+  .ii,
+  .is.io {
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .x {
+    font-size: 20px;
+  }
+  .ly .su .tn {
+    font-size: 15px;
+  }
+  .rf .rc {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tf .cs {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 941px) {
+  .ig .tn {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .q .tn {
+    font-size: 25px;
+    max-width: 90%;
+  }
+  .nn .nr .tn {
+    font-size: 36px;
+  }
+  .tv .tn {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1501px) {
+  .iy .re {
+    height: 570px;
+  }
+  .lz {
+    margin-left: -138px;
+  }
+}
