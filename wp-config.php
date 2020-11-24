@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'grubster_wordpress' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'grubster_admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'G619F4e04@' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
